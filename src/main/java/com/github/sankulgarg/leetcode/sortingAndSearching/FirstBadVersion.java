@@ -18,9 +18,4 @@ public class FirstBadVersion extends VersionControl {
 
 		return leastBadVersion;
 	}
-
-	private boolean isBadVersion(int mid) {
-		// TODO Auto-generated method stub
-		return false;
-	}
 }
