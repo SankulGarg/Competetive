@@ -28,7 +28,7 @@ class SetZeroes {
 
 		// updateIst row
 		if (fROw)
-			for (int i = 0; i < matrix[1].length; i++)
+			for (int i = 0; i < matrix[0].length; i++)
 				matrix[0][i] = 0;
 
 		// updateIst col
