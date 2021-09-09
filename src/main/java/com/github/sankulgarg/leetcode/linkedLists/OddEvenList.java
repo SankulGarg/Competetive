@@ -9,7 +9,7 @@ class OddEvenList {
 		ListNode odd = head;
 		ListNode prev = odd;
 		ListNode even = head.next;
-		ListNode dummy = head.next;
+		ListNode evenHead = head.next;
 
 		
 		
@@ -33,7 +33,7 @@ class OddEvenList {
 			
 		}
 		
-		prev.next = dummy;
+		prev.next = evenHead;
 		return head;
 
 	}

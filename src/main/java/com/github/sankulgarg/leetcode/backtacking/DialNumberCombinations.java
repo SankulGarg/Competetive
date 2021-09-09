@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class Combinations {
-	private static String[] DIGIT_CHARS = new String[] { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv",
+class DialNumberCombinations {
+	private static final String[] DIGIT_CHARS = new String[] { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv",
 			"wxyz" };
 
 	private void combinations(String prefix, List<String> combinations, int ind, String digits) {
@@ -34,6 +34,6 @@ class Combinations {
 	}
 
 	public static void main(String[] args) {
-		new Combinations().letterCombinations("23");
+		System.out.println(new DialNumberCombinations().letterCombinations("234"));
 	}
 }

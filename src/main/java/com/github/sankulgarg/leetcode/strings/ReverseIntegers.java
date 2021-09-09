@@ -22,7 +22,7 @@ class ReverseIntegers {
 
 	public static void main(String[] args) {
 		ReverseIntegers sol = new ReverseIntegers();
-		System.out.println(sol.reverse(1534236469));
+		System.out.println(sol.reverse(153423646));
 
 	}
 }

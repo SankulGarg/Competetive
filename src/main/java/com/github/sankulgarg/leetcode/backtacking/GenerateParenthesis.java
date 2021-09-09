@@ -26,23 +26,6 @@ class GenerateParenthesis {
 		}
 	}
 
-	private boolean isValid(StringBuilder combination) {
-
-		Stack<Character> stack = new Stack<>();
-
-		for (int i = 0; i < combination.length(); i++) {
-			char c = combination.charAt(i);
-			if (c == '(')
-				stack.add(c);
-			else if (stack.isEmpty())
-				return false;
-			else
-				stack.pop();
-
-		}
-
-		return stack.isEmpty();
-	}
 
 	public List<String> generateParenthesis(int n) {
 		solution = new ArrayList<>();
