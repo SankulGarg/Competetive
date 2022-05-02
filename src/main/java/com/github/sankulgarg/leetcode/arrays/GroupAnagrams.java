@@ -8,6 +8,10 @@ import java.util.List;
 import java.util.Map;
 
 class GroupAnagrams {
+	public static void main(String[] args) {
+		new GroupAnagrams()
+				.groupAnagrams(new String[]{"sankul","pichu", "lala"});
+	}
 	public List<List<String>> groupAnagrams(String[] strs) {
 		if (strs.length == 0)
 			return Collections.emptyList();

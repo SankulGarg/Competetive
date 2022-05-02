@@ -31,7 +31,7 @@ class SurroundedREgion {
 
 		// bottomRow
 		for (int i = 0; i < cols; i++)
-			dfsColor(board, r - 1, i);
+			dfsColor(board, rows - 1, i);
 
 		// leftCol
 		for (int i = 0; i < rows; i++)

@@ -7,7 +7,6 @@ import java.util.PriorityQueue;
 class MinRefuelStops {
 	public int minRefuelStops(int target, int startFuel, int[][] stations) {
 		  Arrays.sort(stations,(a,b)->a[1]-b[1]);
-		  PriorityQueue<Integer> pq=new PriorityQueue<>((a,b)->b-a);
 		if (stations.length == 0)
 			if (target > startFuel)
 				return -1;

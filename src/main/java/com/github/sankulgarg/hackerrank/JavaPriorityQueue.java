@@ -1,5 +1,11 @@
 package com.github.sankulgarg.hackerrank;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.stream.IntStream;
+
 class JavaPriorityQueue {
 
 	PriorityQueue<Student> queue = null;
