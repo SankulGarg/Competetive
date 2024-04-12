@@ -51,8 +51,8 @@ class RemoveDuplicateFromSortedArray {
 	}
 
 	public static void main(String[] args) {
-		RemoveDuplicateFromSortedArray sol = new RemoveDuplicateFromSortedArray();
+		RemoveDuplicateFromSortedArray r = new RemoveDuplicateFromSortedArray();
+		System.out.println(r.removeDuplicates(new int[] { 1, 1, 1, 2, 2, 3 }));
 
-		System.out.println(sol.removeDuplicates(new int[] {1,1,2,3}));
 	}
 }

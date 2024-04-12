@@ -52,6 +52,9 @@ public class CoinBase {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 
+		Map<String,Map<String,Double> > graph = new HashMap<>();
+
+		graph.put("BTC", new HashMap<>());
 		/*
 		 * Map<String, List<Ticker>> graph = new HashMap<>();
 		 * 
